@@ -1,0 +1,33 @@
+
+@media screen and (max-width:1000px){
+
+
+
+
+#ajout{
+  width:100%;
+  height:auto;
+  padding-top:40px;
+}
+
+#ajout>form{
+    display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+#ajout #description{
+  height:100px;
+}
+  
+ #connexion{
+ width:100%;
+ height: auto;
+  padding-top:0px;
+}
+  
+
+
+
+}

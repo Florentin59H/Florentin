@@ -1,0 +1,261 @@
+#connexion{
+ width:100%;
+ height: calc(100vh - 380px);
+  padding-top:80px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-color:rgb(240,240,240);
+    font-family:"futura";
+  text-transform:uppercase;
+	font-weight:bold;
+}
+
+#connexion>div>div>form{
+   display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+
+#erreur {
+  -webkit-animation-name: fadeInDown;
+  animation-name: erreuranim;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  font-size:18px;
+}
+
+
+
+
+
+@keyframes erreuranim {
+  0% {
+    opacity: 0;
+  
+  }
+  100% {
+    opacity: 1;
+
+  }
+}
+
+form{
+  margin-top:10px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  padding: 20px;
+}
+
+#formContent {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 100%;
+  position: relative;
+  padding: 10px;
+  //-webkit-box-shadow: 0 30px 60px 0 rgba(124,207,99,0.4);
+  //box-shadow: 0 30px 60px 0 rgba(124,207,99,0.4);
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+}
+
+
+
+
+
+/* FORM TYPOGRAPHY*/
+
+input[type=file],input[type=button], input[type=submit], input[type=reset],.telechargement,input[type=date],textarea{
+  background-color: #7CCF63;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  //-webkit-box-shadow: 0 10px 30px 0 rgba(124,207,99,0.4);
+  //box-shadow: 0 10px 30px 0 rgba(124,207,99,0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+}
+
+
+ input[type=file]:active,input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover,.telechargement:hover  {
+  background-color: #88E26C;
+}
+
+ input[type=file]:active,input[type=button]:active, input[type=submit]:active, input[type=reset]:active,.telechargement :active {
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+input[type=text],input[type=password],textarea{
+  background-color: #7CCF63;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 80%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input[type=text]:focus,input[type=password] :focus,textarea :focus{
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+
+input[type=text]:placeholder,input[type=password]:placeholder,textarea:placeholder {
+  color: #cccccc;
+}
+
+
+textarea{
+	font-family:"futura";
+}
+
+
+/* ANIMATIONS */
+
+/* Simple CSS3 Fade-in-down Animation */
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -200%, 0);
+    transform: translate3d(0, -200%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/* Simple CSS3 Fade-in Animation */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn {
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fadeIn.first {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.fadeIn.second {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.fadeIn.third {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.fadeIn.fourth {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+
+
+
+
+
+#ajout{
+  width:100%;
+  height:auto;
+  padding-top:80px;
+}
+
+#ajout>form{
+    display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+#ajout #description{
+  height:100px;
+}
+
+  #ajout>form>h1{
+
+	font-family:"futura";
+	text-transform:uppercase;
+	font-weight:bold;
+   border-bottom:3px solid #7ccf63;
+  margin-bottom:20px;
+  }
+
+#ajout>form>div{
+  font-size:24px;
+    text-transform: uppercase;
+  font-weight:bold;
+  font-family:"futura";
+}
+

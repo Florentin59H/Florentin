@@ -1,0 +1,144 @@
+#actualite{
+  padding-top:80px;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  font-family:"arial";
+  font-size:16px;
+}
+
+#actualite>h2{
+  border-bottom:3px solid #7ccf63;
+}
+
+.evenement-s{
+  width:80%;
+  padding:20px;
+  margin:20px;
+  background-color:#eee;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+   box-shadow: 0 10px 30px 0 rgba(40,40,40,0.8);
+}
+
+.evenement-ss{
+   display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+
+.evenement-img{
+  height:200px;
+}
+
+.evenement-s>h2{
+  font-family:"futura";
+	text-transform:uppercase;
+	font-weight:bold;
+	border-bottom:3px solid #7ccf63;
+  margin:10px;
+}
+
+
+.evenement-s>div>div{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  margin:10px;
+}
+
+.bmonter{
+  position:relative;
+  background-color:rgb(40,200,40,0.7);
+  text-align:center;
+  padding:8px;
+  color:#444;
+  margin:5px;
+}
+
+.bdescendre{
+  position:relative;
+  background-color:rgb(40,200,40,0.7);
+  text-align:center;
+  padding:8px;
+  color:#444;
+    margin:5px;
+}
+
+.bsup{
+  position:relative;
+  background-color:rgb(40,200,40,0.7);
+  text-align:center;
+  padding:8px;
+  color:#444;
+  margin:5px;
+}
+
+
+.evenement-imgs{
+  display:none;
+  max-width:100%;
+  
+}
+
+.actuimgd span{
+  height:12px;
+  width:24px;
+  border-radius:12px;
+  top:0;
+  left:0px;
+  background-color:rgb(40,40,40,0.6);
+}
+
+.changementimg{
+  width:100%;
+  height:40px;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+}
+
+.actuimgd{
+  width:500px;
+  
+}
+
+.changementimg>span:first-child{
+  background-color:rgb(40,40,40,1);
+}
+
+
+.actualite-page>a{
+  padding:3px;
+}
+
+.actualite-page{
+  margin-bottom:10px;
+  font-size:18px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.actualite-page>h5{
+  margin-right:5px;
+  border-bottom:2px solid #7ccf63;
+}
+
+
+
+
+
+
+
+
+
+
+
+

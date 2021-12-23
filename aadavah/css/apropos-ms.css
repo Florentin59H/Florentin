@@ -1,0 +1,130 @@
+@media screen and (max-width:1000px){
+	
+	
+
+	#historiquesection{
+		width:100%-80px;
+		padding:20px 20px;
+		font-size:18px;
+		border-left:none;
+	}
+
+
+	#historiquesection>h1{
+			margin-top:20px;
+		margin-bottom:20px;
+		font-size:25px;
+	}
+
+	#historiquesection>p{
+		margin-top:15px;
+	}
+	
+	
+	
+#tarifsection{
+	width:100%;
+	padding:40px 0px;
+	font-size:20px;
+	background:none;
+	background-color:rgb(240,240,240,1);
+}
+	
+	#tarifsection>div{
+	background-color:rgb(240,240,240,1);
+	padding:10px;
+	margin-top:0px;
+}
+
+
+#tarifsection h1{
+	margin-top:0px;
+	margin-bottom:40px;
+	font-size:35px;
+	}
+
+#tarifsection p{
+	margin-top:30px;
+}
+
+table>tbody>tr>td{
+	border-bottom:2px #7ccf63 solid;
+	padding:10px;
+}
+
+table .tarif-bright{
+	border-right:3px #7ccf63 solid;
+}	
+	
+#tarifsection strong{
+ color: #7ccf63;	
+}	
+
+	
+	
+	
+#nospartenaires{
+	padding:40px 0 40px 0px;
+	font-size:18px;
+	font-family:"montserrat";
+}
+
+#nospartenaires img{
+	height:100px;
+	padding:10px;
+}
+	
+	
+#nospartenaires>div:nth-of-type(2)>img{
+	height:60px;
+}
+
+#nospartenaires>div{
+	width:calc(100% - 20px);
+	flex-direction:column;
+	border:0;
+	border-top:4px #7ccf63 solid;
+	border-bottom:4px #7ccf63 solid;
+	margin:20px 0;
+	padding:10px 10px;
+	box-shadow:none;
+	//-webkit-box-shadow: 0 30px 60px 0 rgba(124,207,99,0.2);
+  //box-shadow: 0 30px 60px 0 rgba(124,207,99,0.2);
+	border-radius:0px;
+}
+
+
+#nospartenaires h1,h2{
+	margin-bottom:15px;
+}
+	
+	#nospartenaires a{
+		border-bottom:3px #7ccf63 solid;
+	}
+
+	
+		#notreequipe h1{
+		top:20px;
+	}
+	
+	#notreequipe>div{
+		padding:0;
+	}
+	
+	
+	
+	#notreequipe>div>div{
+	margin:20px;
+}
+	
+	#notreequipe img{
+	filter:none;
+}
+	
+	.sousdiv{
+	opacity:1;
+		top:0;
+}
+	
+	
+}

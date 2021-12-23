@@ -1,0 +1,51 @@
+@media screen and (max-width:1000px){
+  
+  
+  #nouscontacter{
+	width:100%-40px;
+	padding:0px 0px 0px 0px;
+	font-size:16px;
+    flex-direction:column;
+		
+}
+
+#nouscontacter>div>div:first-child{
+	text-align:center;
+  width:auto;
+  padding-bottom:20px;
+}
+
+#nouscontacter>div>div:nth-child(2){
+	font-size:20px;
+	margin-top:20px;
+}
+
+#nouscontacter>div>div>span{
+  margin-bottom:20px;
+}
+
+#nouscontacter>div>div:nth-child(2) h5{
+	font-size:22px;
+	padding:0px;
+  margin-bottom:20px;
+}
+
+
+#nouscontacter-formulaire{
+	padding:20px 0;
+	border-radius:0px;
+  width:auto;
+}
+
+#nouscontacter-formulaire>h5{
+	font-size:22px;
+}
+  
+  #nouscontacter>div:first-of-type{
+
+  border-radius:0px;
+}
+  
+  
+  
+}

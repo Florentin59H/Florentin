@@ -1,0 +1,447 @@
+*{
+				
+	margin:0;
+	padding:0;
+	border:0;
+	text-decoration:none;
+	list-style:none;
+	
+}
+
+
+
+
+@font-face{
+	font-family:"futura";
+	src:url("../fonts/FuturaExtended.ttf");
+}
+
+@font-face{
+	font-family:"montserrat";
+	src:url("../fonts/Montserrat-Regular.ttf");
+}
+
+
+#main{
+	background:url(../images/mains-papier3.jpg) no-repeat ;/*pour centrer l image et voir le bas*/
+	background-size:cover;
+	height:100vh;
+	width:100%;
+}
+
+@keyframes nav{
+	0%{top:-100%;
+	}
+	100%{top:0;}
+}
+
+
+#header-nav{
+	animation:nav 1.5s ease;
+	position:fixed;
+	width:100%;
+	height:80px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color: rgba(120, 120, 120, 0.6);
+	z-index:1;
+}
+
+#header-nav>nav{
+	width:80%;
+	height:100%;
+	text-transform:uppercase;
+	font-weight:bold;
+	
+	
+}
+
+#header-nav>nav>ul{
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	height:100%;
+	width:100%;
+	font-size:28px;
+	font-family:"futura";
+	
+}
+
+#header-nav>nav>ul>li>a{
+	color:#eee;
+	padding:12px;
+	border-bottom:4px #7ccf63 solid;
+}
+
+
+
+
+#header-nav>nav>ul>li:hover{
+	transition: all 0.4s ease-in-out;
+	background-color: rgba(40, 40, 40, 0.8);
+	//box-shadow: 0 30px 60px 0 rgba(0,0,0,0.4);
+}
+
+
+#logoaadvah {
+	
+	height:40px;
+	
+}
+
+
+.subnav{
+	display:none;
+	font-size:10px;
+	position:absolute;
+	font-size:16px;
+	padding:10px;
+	background-color: rgba(40, 40, 40, 0.8);
+	color:#ddd;
+}
+
+.subnav>li>a{
+	color:#ddd;
+}
+
+
+
+
+
+
+
+
+#main{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	align-items:center;
+	
+}
+
+@keyframes logo{
+	0%{opacity:0;
+	transform:scale(0);
+	}
+	100%{opacity:1;
+	transform:scale(1);}
+	
+}
+
+
+
+#main>img{
+	animation:logo 3s ease;
+	height:100px;
+}
+
+  @keyframes h1main{
+	0%{opacity :0;
+	}
+	100%{margin-bottom:1;}
+}
+
+
+#main>h1{
+	position:absolute;
+	top:80px;
+	animation:h1main 5s ease;
+	font-size:35px;
+	color:#333;
+	font-family:"futura";
+	text-align:center;
+}
+
+#main>h1>strong>span{
+	color:#7ED165;
+}
+
+
+
+
+#accueilactu{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	align-items:center;
+	height:450px;
+	background:#eee;
+}
+
+#accueilactu h2,h3{
+	border-bottom:3px solid #7ccf63;
+	font-size:22px;
+	font-family:"futura";
+	text-transform:uppercase;
+	font-weight:bold;
+	text-align:center;
+}
+
+#accueilactu h2{
+	font-size:26px;
+}
+
+#accueilactu img {
+	height:280px;
+}
+
+#accueilactu>.accueilactu-s>div>div{
+	text-align:center;
+	max-width:30%;
+	font-size:20px;
+}
+
+#accueilactu>.accueilactu-s{
+	display:none;
+	flex-direction:column;
+	//justify-content:center;
+	align-items:center;
+	height:310px;
+	width:100%;
+}
+
+.accueilactu-s>.accueilactu-ss{
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	width:100%;
+	height:280px;
+	font-family:arial;
+  font-size:16px;
+}
+
+#accueilactu #changementactu{
+	height:50px;
+	width:100px;
+	display:flex;
+	align-items:center;
+	justify-content: space-evenly;
+}
+
+#changementactu>span{
+
+	 
+   height:12px;
+  width:24px;
+  border-radius:12px;
+  top:0;
+  left:0px;
+  background-color:rgb(40,40,40,0.6);
+}
+
+
+
+
+
+
+#vous{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	align-items:center;
+	width:100%;
+	height:500px;
+}
+
+#vous>h3{
+	height:10%;
+	font-family:"futura";
+	text-transform:uppercase;
+	font-weight:bold;
+  padding:10px;
+	font-size:28px;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	margin-top:20px;
+	border-bottom:4px solid #7ccf63;
+}
+
+#vous{
+	background-color:#ddd;
+	
+}
+
+#vous>div{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	height:90%;
+	width:100%;
+}
+
+#vous>div>div{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	align-items:center;
+	font-size: 19px;
+	background-color: rgba(256,256,256, 0.75);
+	padding:10px;
+	height:180px; 
+	width:410px;
+	box-shadow: 0 30px 60px 0 rgba(256,256,256,0.3);
+}
+
+#vous>div>div>h4{
+	font-family:"futura";
+	text-transform:uppercase;
+	font-weight:bold;
+	border-bottom:3px solid #7ccf63;
+}
+
+#vous>div>div>ul{ 
+	font-family:arial;
+	
+	
+}
+
+#vous>div>div>ul>li{ 
+list-style:disc;	
+}
+
+#vous{
+	background:url(../images/victimeimg2.jpg) no-repeat center;/*pour centrer l image et voir le bas*/
+	background-size:cover;
+}
+
+
+
+
+
+#nous{
+	height:500px;
+	width:100%;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	 background: linear-gradient(to bottom, transparent, #eee),
+      url(../images/fond44.jpg) no-repeat center;/*pour centrer l image et voir le bas*/
+}
+	
+
+
+#nous>h3{
+	font-family:"futura";
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:28px;
+	margin-top:20px;
+	color:#222;
+	border-bottom:4px solid #7ccf63;
+	text-align:center;
+	width:auto;
+}
+
+#nous>div{
+	height:85%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family:arial;
+	font-size:20px;
+}
+
+#nous>div>div{
+	background-color:rgba(256,256,256,0.7);
+	height:300px;
+	width:300px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	align-items: center;
+box-shadow: 0 30px 60px 0 rgba(256,256,256,0.3);
+	padding:10px;
+}
+
+#nous>div>div>p{
+	text-align:center;
+}
+
+#nous>div>div>ul>li{ 
+list-style:disc;	
+}
+
+
+
+
+
+footer{
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	width:100%;
+	height:300px;
+	background-color:#353635;
+	font-family:arial;
+	color:#ddd;
+	font-size:18px;
+}
+
+footer a{
+	color:#ddd;
+}
+
+footer>div{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	align-items: center;
+	height:80%;
+	width:50%;
+}
+
+footer h5{
+	font-size:22px;
+	border-bottom:3px #ddd solid;
+}
+
+footer #contacter{
+	font-size:24px;
+	border:3px #ddd solid;
+	padding:5px;
+	border-radius:10px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+footer li{
+	text-align:center;
+}
+
+footer #tarif{
+	font-size:26px;
+	border-bottom:3px #ddd solid;
+	padding:5px;
+}
+
+footer>div:first-child{
+	border-right:5px #ddd solid;
+}
+
+
+footer li{
+	padding:1px;
+}
+
+footer>div>div{
+	display:flex;
+	justify-content:space-around;
+  width:100%;
+	height:100%;
+}
+
+footer span{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-evenly;
+}
+
+footer>div a:nth-of-type(2){
+	border-bottom:3px #ddd solid;
+}
+

@@ -1,0 +1,152 @@
+.nosactionssection{
+	width:100%-80px;
+	padding:80px 40px 80px 200px;
+	font-family:arial;
+	background-color:#eee;
+	font-size:17px;
+}
+
+
+.nosactionsh1,.nosactionsh2,.nosactionsh3{
+  font-family:"futura";
+  text-transform:uppercase;
+  font-weight:bold;
+	font-style:italic;
+	border-bottom:3px #7CCF63 solid;
+}
+
+.nosactionsh4,.nosactionsh5{
+	  text-transform:uppercase;
+  font-weight:bold;
+	border-bottom:3px #353635 solid;
+}
+
+.nosactionsh1{
+		margin-top:80px;
+	margin-bottom:80px;
+	font-size:30px;
+	
+}
+
+.nosactionsh2{
+		margin-top:70px;
+	font-size:28px;
+}
+
+
+.nosactionsh3{
+		margin-top:60px;
+	font-size:26px;
+}
+
+.nosactionsh4{
+		margin-top:30px;
+	font-size:24px;
+}
+
+.nosactionsh5{
+		margin-top:20px;
+	font-size:20px;
+}
+
+.nosactionsh6{
+		margin-top:15px;
+	font-size:18px;
+}
+
+.nosactionsp{
+	margin-top:20px;
+	font-size:18px;
+	font-family:"arial";
+}
+
+.nosactionsul{
+	padding:10px;
+}
+
+.nosactionsli{
+	margin:10px 0 0 30px;
+	list-style:disc;
+	font-family:"montserrat";
+}
+
+
+@keyframes actionnav{
+	0%{left:-100%;
+	}
+	100%{left:0;}
+}
+
+
+
+
+
+
+.nosactionsnavigation{
+	animation:2s actionnav ease;
+	position:fixed;
+//	top:35%;
+	padding:0px 10px 0px 25px;
+//	left:10px;
+	background-color: rgb(124,207,99,0.8);
+	color:black;
+	font-size:16px;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	overflow:hidden;
+	width:140px;
+	 font-family:"futura";
+  text-transform:uppercase;
+  font-weight:bold;
+	height:calc(100vh - 80px);
+	top:80px;
+}
+
+.nosactionsnavigation li{
+	list-style:disc;
+}
+
+.nosactionsnavigation li>a{
+	color: rgb(40,40,40,1);
+}
+
+
+#nosactionssection{
+	width: 100%;
+	height:auto;
+	padding:120px 0px;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	font-family:"futura";
+  text-transform:uppercase;
+  font-weight:bold;
+	background-color: #fff;
+}
+
+#nosactionssection>ul>li>a{
+	color:black;
+	font-size:20px;
+	font-family:"arial";
+}
+
+#nosactionssection>h1{
+	font-size:30px;
+	margin-bottom:20px;
+	color:#222;
+	border-bottom:3px #222 solid;
+}
+
+#nosactionssection>ul{
+	-webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  position: relative;
+  padding: 20px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+}

